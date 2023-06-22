@@ -1,0 +1,6 @@
+TC of bfs traversal of graph: O(N) + O(2*E) why not O(N*2E) ? 
+
+** No,it would have been multiplied only when for each node total number of adjacent node is 2*e,but this is not the case,here ultimately we are overall visiting n nodes and for each node,visiting its adjacent nodes,which is total of 2e for total nodes.
+
+** (n)C(r) = (n-1)C(r-1) + (n-1)C(r)
+
