@@ -89,8 +89,7 @@ void solve()
     cout << st.getMin() << endl;
     st.pop();
     cout << st.getMin() << endl;
-    st.pop();
-    cout << st.getMin() << endl;
+    
 }
 
 int main()
